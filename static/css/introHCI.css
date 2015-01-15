@@ -1,26 +1,117 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
-	margin-top: 2em;
+	margin-top: 5em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+	color: #CC00DD;
+}
+p {
+   
 }
 
+#project1 {
+     margin-left: 100px;
+    background-color: #AE7E99;
+    padding: 30px;
+    width: 700px;
+    height: 550px;
+    opacity: 0.5;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#project2 {
+     margin-left: 400px;
+     margin-top: 25px;
+    background-color: #AE7E99;
+    padding: 15px;
+    width: 550px;
+    opacity: 0.5;
+    max-width: 550px;
+    box-shadow: 10px 10px 10px #888888;
+}
+
+#project3 {
+     margin-left: 500px;
+     margin-top: 25px;
+    background-color: #AE7E99;
+    padding: 15px;
+    width: 550px;
+    box-shadow: 10px 10px 10px #888888;
+    opacity: 0.5;
+}#project3 {
+     margin-left: 600px;
+     margin-top: 25px;
+     box-shadow: 10px 10px 10px #888888;
+    background-color: #AE7E99;
+    padding: 15px;
+    width: 550px;
+    opacity: 0.5;
+}#project4 {
+     margin-left: 700px;
+     margin-top: 25px;
+     box-shadow: 10px 10px 10px #888888;
+    background-color: #AE7E99;
+    padding: 15px;
+    width: 550px;
+    opacity: 0.5;
+}#project5 {
+     margin-left: 600px;
+     margin-top: 25px;
+     box-shadow: 10px 10px 10px #888888;
+    background-color: #AE7E99;
+    padding: 15px;
+    width: 550px;
+    opacity: 0.5;
+}#project6 {
+     margin-left: 500px;
+     margin-top: 25px;
+     box-shadow: 10px 10px 10px #888888;
+    background-color: #AE7E99;
+    padding: 15px;
+    width: 550px;
+    opacity: 0.5;
+}#project7 {
+     margin-left: 400px;
+     margin-top: 25px;
+     box-shadow: 10px 10px 10px #888888;
+    background-color: #AE7E99;
+    padding: 15px;
+    width: 550px;
+    opacity: 0.5;
+}#project8 {
+     margin-left: 300px;
+     margin-top: 25px;
+     box-shadow: 10px 10px 10px #888888;
+    background-color: #AE7E99;
+    padding: 15px;
+    width: 550px;
+    opacity: 0.5;
+}
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     border: 20px dotted black;
+     padding:200px;
+     font-family: "Times New Roman", Georgia, Serif;
+     text-overflow: ellipsis;
+     text-shadow: 2px 2px #888888;
+     background-color: #E5ADC5
+
+
+
 }
 
 .jumbotron {
 	position: relative;
 	background: none;
-}
 
+}
+.project {
+    margin-left: 20px;
+}
 .jumbotron:after {
      content:"";
      background: url("http://lorempixel.com/1140/283");
